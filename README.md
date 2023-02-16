@@ -2,7 +2,7 @@
 
 Analysis done by Juan Carlos (JC) Vizcarra
 
-Collaborators that spearheaded the survey: Dr. Andrew F. Teich, Dr. Davis A. Gutman, Dr. Brittany N. Dugger.
+Collaborators that spearheaded the survey & survey analysis: Dr. Andrew F. Teich, Dr. Davis A. Gutman, Dr. Brittany N. Dugger.
 
 Additonal acknowledgments: ADRC digital pathology working group, Dr. Jonathan D. Glass, Dr. Marla Gearing, Dr. Katherine L. Lucot, and Kevin Nzenkue.
 
@@ -17,4 +17,3 @@ Python requirements:
 - matplotlib
 - numpy
 - seaborn
-
