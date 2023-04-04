@@ -135,7 +135,7 @@ def report_column(values: list, save_fp: str = '', map_dict: dict = None) -> (li
 def plot_landmark_barplots(
         values: pd.Series, map_dict: dict = None, min_count: int = 0, plot_dict: dict = None, rotate_xticks: int = 45, 
         title: str = None, title_size: int = 24, figsize: (int, int) = (10,7), font_size: int = 22, 
-        save_dir: str = 'figures/landmark-barplots'
+        save_dir: str = 'figures/landmark-barplots', show_plot: bool = True
     ):
     """For each region landmark answers (a list) plot / save a bar plot figure.
     
@@ -260,4 +260,7 @@ def plot_landmark_barplots(
     with open(txt_fp, 'w') as fh:
         fh.write('\n'.join(results))
         
-    plt.close()
+    if show_plot:
+        plt.show()
+    else:
+        plt.close()

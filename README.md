@@ -10,10 +10,11 @@ In 2022 a survey was sent out to 40 ADRC, brain banks, or former ADRC contacts. 
 
 The results of this analysis are being included in a manuscript to be published in the near future.
 
-Script: "survey-analysis.py".
+Use the Jupyter notebook analysis.py to re-create figures and result files.
 
 Python requirements:
 - pandas
 - matplotlib
 - numpy
 - seaborn
+- jupyter
