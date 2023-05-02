@@ -18,3 +18,4 @@ Python requirements:
 - numpy
 - seaborn
 - jupyter
+- openpyxl
